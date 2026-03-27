@@ -3,29 +3,43 @@ body {
   margin: 20px;
   line-height: 1.6;
 }
- 
+
 #product-container {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
 }
- 
+
+#error-message {
+  color: #c0392b;
+  font-size: 0.9rem;
+  margin: 0 0 12px;
+  min-height: 20px;
+}
+
 #cart {
   list-style: none;
   padding: 0;
 }
- 
+
 .cart-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
- 
+
 .cart-item span {
   flex: 1;
 }
- 
+
+.cart-item input[type="number"] {
+  width: 50px;
+  padding: 2px 4px;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
 .cart-item button {
   margin-left: 10px;
 }
