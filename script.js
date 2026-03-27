@@ -116,3 +116,4 @@ function addProduct() {
 
 // Wire up the Add Product button
 addProductButton.onclick = addProduct;
+
